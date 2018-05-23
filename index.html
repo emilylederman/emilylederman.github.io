@@ -9,32 +9,132 @@
   <meta name="author" content="Emily Lederman">
   <meta name="description" content="This is my site">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
+  <link rel="shortcut icon" href="favicon.JPG">
   <link rel="stylesheet" href="css/stylesheet.css">
+  
+  <script> 
+	var typeOutName = function(loc, nm, index, interval){
+		if (index < nm.length){
+			$(loc).append(nm[index++]);
+			setTimeout(function (){typeOutName(loc, nm, index, interval); }, interval);
+			}
+	}
+	
+	var displayMenu = function(loc, interval){
+		$(loc).fadeIn(interval);
+	}
+	
+	$(function () {
+		$("#menu").fadeOut(0);
+		var interval = 150;
+		var nm = " emily lederman.";
+		var menuTime = (interval * nm.length) + 4000;
+		typeOutName("#authorname", nm, 0, interval);
+		displayMenu("#menu", menuTime);
+	});
+		
+  </script>
+	
+ 	<script>
+		function showItem(x, a, b, c){
+			if (x.style.display === "none"){
+				x.style.display = "block";
+				a.style.display = "none";
+				b.style.display = "none";
+				c.style.display = "none";
+			}
+			else if(x.style.display == ""){
+				x.style.display = "block";
+				a.style.display = "none";
+				b.style.display = "none";
+				c.style.display = "none";
+			}
+			else{
+			x.style.display = "none";
+			}
+		}
+		
+		function showContact(){
+			var x = document.getElementById("contactsection");
+			var a = document.getElementById("aboutsection");
+			var b = document.getElementById("skillssection");
+			var c = document.getElementById("resumesection");
+			showItem(x, a, b, c);
+		}
+		
+		function showAbout(){
+			var x = document.getElementById("aboutsection");
+			var a = document.getElementById("contactsection");
+			var b = document.getElementById("skillssection");
+			var c = document.getElementById("resumesection");
+			showItem(x, a, b, c);
+		}
+		function showSkills(){
+			var x = document.getElementById("skillssection");
+			var a = document.getElementById("aboutsection");
+			var b = document.getElementById("contactsection");
+			var c = document.getElementById("resumesection");
+			showItem(x, a, b, c);
+		}
+		function showResume(){
+			var x = document.getElementById("resumesection");
+			var a = document.getElementById("aboutsection");
+			var b = document.getElementById("skillssection");
+			var c = document.getElementById("contactsection");
+			showItem(x, a, b, c);
+		}
+	</script>
 </head>
 
-<body id="home">
-	<div class="container-fluid">
-	<ul id ="front">
-		<h1>
-		Emily Lederman
-		<br>
-		<small>I am a second year computer science student at the Rochester Institute of Technology.</small>
-		</h1>
-		
-		<ul class = "nav nav-tabs" role = "tablist">
-			<li class = "active"><a href ="http://emilylederman.me/" title = "Home">Home</a></li>
-			<li><a href="http://emilylederman.me/resume" title = "Resume">Resume</a></li>
-			<li><a href="http://emilylederman.me/projects" title = "Projects">Projects</a></li>
-		</ul>
+<body>
+  	<div class = "mainheader" id = "authorname"></div>
 
-		<br>
-		<a href="mailto:erl3193@rit.edu"><img src = "email.png"
-		alt = "Email me" title = "Email me"/></a>
-	</ul>
-  </div>
-
+  	<br>
+	<div class = "mainmenu" id = "menu">
+		<span id = "about" onclick = "showAbout()">about</span>
+		<span id = "skills" onclick = "showSkills()">skills</span>
+		<span id = "resume" onclick = "showResume()">resume</span>
+		<span id = "contact" onclick = "showContact()">contact</span>
+	</div>
+	
+	 <div id = "menuitems">
+	 	 <div id = "aboutsection">
+			 My name is Emily Lederman. I am a third year computer science major at the Rochester Institute of Technology.
+			 <br><br>
+			 I specialize in backend development.
+			 <br><br>
+			 I am from Morgantown, West Virginia, and currently live in Santa Cruz, California. 
+			 <br><br>
+		 </div>
+		 
+		 <div id = "skillssection">
+			 Programming Languages:
+			 <!---todo: list languages as graphic< -->
+			 <ul>Python, Java, C, HTML/CSS, JS, Matlab</ul>
+			 <br>
+			 Software:
+			 <ul> Pycharm, LaTeX </ul> <br>
+			 Professional & academic:
+			 <ul>writing, math</ul>
+			 <!-- todo: clean up --><br>
+			 Other:
+			 <ul>Swimming: have been competitive for 10+ years</ul>
+			 <ul>Can communicate well in three languages: English, Spanish, ASL</ul>
+			 <!--ASL font, line graph showing aquisition over time-->
+		 </div>
+		 <div id = "resumesection">resume coming soon</div>
+		 <div id = "contactsection">contact me section coming soon. <br> e-mail any questions to erl3193@g.rit.edu .
+	     <!--
+		 <li> LinkedIn, Github, email
+		 <li> icons! add icons at the botton as well-->
+		 </div>
+	</div>
+	 
+	 <p class="copy">&copy; 2018 Emily Lederman</p>
+	
+  
 </body>
 </html>
