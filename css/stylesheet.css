@@ -1,32 +1,52 @@
 body{
-	font-family: "Trebuchet MS";
-	font-size: 13px;
+	font-family: "Ubuntu";
+	font-size: 20px;
+	background:black;
+	color:white;
 } 
 
-#home{
-	background-color: black;
-	background-repeat: no-repeat;
-}
-
-#front{
-	position: absolute;
-	width: 420px;
-	height: 200px;
-	z-index: 15;
-	top: 50%;
-	left: 50%;
-	margin: -100px 0 0 -200px;
-	text-align: center;
+.mainheader{
+	position: fixed;
+	top: 15%;
+	text-align: left;
+	font-size: 60px;
 	color:white;
 }
 
-#front h1{
-	font-size : 242%;
+.mainmenu{
+	position: fixed;
+	top: 25%;
 }
 
-#front small{
-	color:gray;
+.copy{
+	position: fixed;
+	font-size: 70%;
+	text-align: right;
+	bottom: -12px;
+    right: 10px;
+    height: 15px;
+    line-height: 100%;
 }
 
+.square {
+  border: solid 2px #DED3DC;
+  background-color: #DED3DC;
+  width: 36px;
+  height: 60px;
+}
 
+#about, #skills, #resume, #contact{
+	padding: 10px;
+}
+#about:hover, #skills:hover, #resume:hover, #contact:hover{
+	text-decoration: underline;
+	color: green;
+}
 
+#aboutsection, #skillssection, #resumesection, #contactsection{
+	position: fixed;
+	top: 30%;
+	display: none;
+	margin-left: 7%;
+	margin-right: 7%;
+}
