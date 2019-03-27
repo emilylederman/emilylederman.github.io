@@ -4,47 +4,62 @@
 <head>
   <meta charset="utf-8">
   <title>Emily Lederman </title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="author" content="Emily Lederman">
   <meta name="description" content="This is my site">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta name  = "viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <!-- Custom scripts -->
-  <script src="/js/lederman.js"></script>
+ 
+	 
   <link rel="shortcut icon" href="favicon.JPG">
-  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	  
+ <!-- Custom scripts -->
+  <script src="/js/lederman.js"></script>
+  <script src="/js/scrolling.js"></script>
 
 </head>
 
 <body data-spy="scroll" data-target="main-menu-nav">
   <!-- Navigation -->
-  <div class="inner ml-auto">
+  <div class="inner ml-auto sticky-top">
       <nav id="main-menu-nav" class="navbar navbar-expand-lg navbar-light">
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
   
-        <div class="collapse navbar-collapse flex-grow-1 text-left" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link active js-scroll-to" id="homepage" href="#">Home <span
+              <a class="nav-link active scroll-section" id="homepage" href="#">Home <span
                   class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll" id="about-page" href="#about">About</a>
+              <a class="nav-link scroll-section" id="about-page" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll" id="resume-page" href="#resume">Resume</a>
+              <a class="nav-link scroll-section" id="resume-page" href="#resume">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll" id="portfolio-page" href="#portfolio">Portfolio</a>
+              <a class="nav-link scroll-section" id="portfolio-page" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll" id="contact-page" href="#contact">Contact</a>
+              <a class="nav-link scroll-section" id="contact-page" href="#contact">Contact</a>
             </li>
+			  <label>
+  				<input type="checkbox" id="animation" name="animation" checked="checked">
+  				Scrolling Animation
+				</label> 
+
         </div>
       </nav>
       <div data-spy="scroll" data-target="main-menu-nav" data-offset=0>
@@ -56,7 +71,8 @@
     <div class="main-page d-flex w-100 h-100 p-3 mx-auto flex-column">    
       <main role="main" class="front page">
         <h1 class="cover-heading">Emily Lederman</h1>
-        <p class="lead">This is a work in progress.</p>
+        <p class="lead">Hello! Welcome to my website.</p>
+		  <p>Currently under construction.</p>
       </main>
     </div>
   </header>
@@ -64,29 +80,58 @@
   
 <!-- About Section -->
 <section class="subsection" id="about">
-  hello
+	<div class="container">
+		<div class= "row justify-content-center">
+			<div class= "col-8 text-center">
+				<h3 class="about-header">About Me</h3>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			hello
+		</div>
+	</div>
 </section>
 
 <!-- Resume Section -->
 <section class="subsection" id="resume">
-  hey there
+	<div class="container">
+		<div class= "row justify-content-center">
+			<div class= "col-8 text-center">
+				<h3 class="resume-header">Resume</h3>
+			</div>
+		</div>
+	</div>
 </section>
 
 <!-- Portfolio Section -->
 <section class="subsection" id="portfolio">
-  heyo
+	<div class="container">
+		<div class= "row justify-content-center">
+			<div class= "col-8 text-center">
+				<h3 class="portfolio-header">Portfolio</h3>
+			</div>
+		</div>
+	</div>
 </section>
 
 <!-- Contact Section -->
 <section class="subsection" id="contact">
-  hola
+	<div class="container">
+		<div class= "row justify-content-center">
+			<div class= "col-8 text-center">
+				 <h3 class="contact-header">Contact</h3>
+			</div>
+		</div>
+	</div>
 </section>
 
 <!-- Footer -->
-  <footer class="mastfoot mt-auto">
-      <div class="inner">
-        add copyright here
+  <footer class="flex-container mastfoot mt-auto">
+      <div class="row justify-content-center align-items-center">
+		  <p class="copy">&copy; 2019 Emily Lederman</p>
       </div>
   </footer>
 </body>
+
+	
 </html>
