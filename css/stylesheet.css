@@ -4,7 +4,7 @@ html{
 main{
 	align-items: center;
 	text-align: center;
-	background-image: url("/images/main-page-bg.jpg");
+	background: linear-gradient(0deg,rgba(229,198,198,0.32),rgba(220,220,198,0.42)),url("/images/main-page-bg.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -33,4 +33,10 @@ section {
 
 footer {
 	background-color: #e1e8ed;
+	padding: .5rem 0;
+}
+
+.contact-img{
+	width=1000%;
+	padding: .5rem 0;
 }
