@@ -7,12 +7,7 @@
   <meta name="author" content="Emily Lederman">
   <meta name="description" content="This is my site">
   <meta name  = "viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
- 
-	 
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
   <link rel="shortcut icon" href="favicon.JPG">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -21,10 +16,7 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-	  
- <!-- Custom scripts -->
-  <script src="/js/lederman.js"></script>
-  <script src="/js/scrolling.js"></script>
+
 
 </head>
 
@@ -81,7 +73,7 @@
 <!-- About Section -->
 <section class="subsection" id="about">
 	<div class="container">
-		<div class= "row justify-content-center">
+		<div class= "row justify-content-center" id="subsection-heading">
 			<div class= "col-8 text-center">
 				<h3 class="about-header">About Me</h3>
 			</div>
@@ -105,7 +97,7 @@
 <!-- Resume Section -->
 <section class="subsection" id="resume">
 	<div class="container">
-		<div class= "row justify-content-center">
+		<div class= "row justify-content-center" id="subsection-heading">
 			<div class= "col-8 text-center">
 				<h3 class="resume-header">Resume</h3>
 			</div>
@@ -176,7 +168,7 @@
 <!-- Portfolio Section -->
 <section class="subsection" id="portfolio">
 	<div class="container">
-		<div class= "row justify-content-center">
+		<div class= "row justify-content-center" id="subsection-heading">
 			<div class= "col-8 text-center">
 				<h3 class="portfolio-header">Portfolio</h3>
 			</div>
@@ -194,19 +186,20 @@
 <!-- Contact Section -->
 <section class="subsection" id="contact">
 	<div class="container">
-		<div class= "row justify-content-center">
+		<div class= "row justify-content-center" id="subsection-heading">
 			<div class= "col-8 text-center">
 				 <h3 class="contact-header">Contact</h3>
 			</div>
 		</div>
 		<div class="row justify-content-center h-10">
-			<div class="col-6">
+			<div class="col">
 				<a href="mailto:erl3193@rit.edu">
-					<img src="/images/email.png" class="img-fluid mx-auto d-block w-75 contact-img" alt="Email: erl3193@rit.edu"></img>
+					<img src="/images/gmail-icon.png" class="img-fluid mx-auto d-block w-50 contact-img" alt="Email: erl3193@rit.edu"></img>
 				</a>
 			</div>
-			<div class="col-6">
-				<a href="https://www.linkedin.com/in/emily-lederman-a4539113b/"><img src="/images/linkedin_logo.png" alt="LinkedIn Profile"></img></a>
+			<div class="col">
+				<a href="https://www.linkedin.com/in/emily-lederman-a4539113b/">
+					<img src="/images/linkedin_logo.png" class="img-fluid mx-auto w-50 contact-img" alt="LinkedIn Profile"></img></a>
 			</div>
 		</div>
 	</div>
@@ -218,6 +211,15 @@
 		  <p class="copy">&copy; 2019 Emily Lederman</p>
       </div>
   </footer>
+		 
+  <!--Bootstrap scripts-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	  
+	  
+ <!-- Custom scripts -->
+  <script src="/js/lederman.js"></script>
+  <script src="/js/scrolling.js"></script>
 </body>
 
 	

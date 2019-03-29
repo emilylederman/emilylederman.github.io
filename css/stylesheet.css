@@ -22,14 +22,18 @@ nav{
 body{
 }
 
+#subsection-heading{
+	padding: 2rem 0;
+}
+
 header {
 	position: relative;
 }
 
 section {
-  padding: 10rem 0;
   align-content: center;
   align-self: start;
+  padding-bottom: 3em;
 }
 
 footer {
