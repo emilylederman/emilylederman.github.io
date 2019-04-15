@@ -8,10 +8,9 @@
   <meta name="description" content="This is my site">
   <meta name  = "viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
-  <link rel="shortcut icon" href="favicon.JPG">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
@@ -76,11 +75,12 @@
 		<div class= "row justify-content-center" id="subsection-heading">
 			<div class= "col-8 text-center">
 				<h3 class="about-header">About Me</h3>
+				<div class="border-bottom my-1 mx-5"></div>
 			</div>
     </div>
     <div class= "row">
-      <div class = "col-4 mx-auto" >
-          <img src="/images/profile_picture.JPG" class="img-fluid rounded-circle align-center" alt="Picture of Emily, a woman with curly brown hair and white sunglasses, smiling at the camera in front of a flower field."></img>
+      <div class = "col-4 d-block mx-auto" >
+          <img src="/images/profile_picture.JPG" class="img-fluid rounded-circle align-left" alt="Picture of Emily, a white girl with blue eyes and medium-length curly brown hair, smiling at the camera."></img>
         </div>
       <div class="col">
        My name is Emily Lederman. I am a third year computer science major at the Rochester Institute of Technology, where I am cross-registered with the National Technical Institute for the Deaf. Currently, I am on co-op with Intuit in sunny San Diego.
@@ -93,6 +93,32 @@
       </div>
   </div>
 </section>
+		  
+		  <!-- Portfolio Section -->
+<section class="subsection" id="portfolio">
+	<div class="container">
+		<div class= "row justify-content-center" id="subsection-heading">
+			<div class= "col-8 text-center">
+				<h3 class="portfolio-header">Portfolio</h3>
+				
+				<div class="border-bottom my-1  mx-5"></div>
+			</div>
+    </div>
+    <div class= "row justify-content-center">
+        <div class= "col text-center">
+          <img src="/images/coding-image.png" class="rounded-circle align-left" alt="Picture of some sample code."></img>
+          <div class = "overlay"> Writing <p><i>Coming soon.</i></p></div>
+        </div>
+        <div class= "col text-center">
+            <img src="/images/goat-painting.png" class=" rounded-circle align-left" alt="Victorian portrait of a goat."></img>
+          </div>
+
+          <div class= "col text-center">
+              <img src="/images/writing-image.png" class=" rounded-circle align-left" alt="Picture of some sample writing."></img>
+            </div>
+      </div>
+	</div>	
+</section>
 
 <!-- Resume Section -->
 <section class="subsection" id="resume">
@@ -100,24 +126,26 @@
 		<div class= "row justify-content-center" id="subsection-heading">
 			<div class= "col-8 text-center">
 				<h3 class="resume-header">Resume</h3>
+				
+		<div class="border-bottom my-1  mx-5"></div>
 			</div>
     </div>
     <div class="row">
 		<div class="col-6">
-			<h5 class="edu-header">Education</h5>
+			<h4 class="edu-header">Education</h4>
 			<p>Rochester Institute of Technology</p>
 			<p>Bachelor of Science, Computer Science</p>
       <p>Expected Graduation: December 2019</p>
-      <h5 class="work-experience">Work Experience</h5>
-		  <h6 class="work-subheader">Prudential Financial</h6>
+      <h4 class="work-experience">Work Experience</h4>
+      <h6 class="work-subheader">Prudential Financial Intern</h6>
 		  <p><i>June 2017 - August 2017</i></p>
 		  <p><i>Newark, New Jersey</i></p>
 		  
-		  <h6 class="work-subheader">GE Aviation</h6>
+		  <h6 class="work-subheader">GE Aviation Intern</h6>
 		  <p><i>May 2016 - August 2016</i></p>
 		  <p><i>Newark, Delaware</i></p>
 		  
-		  <h6 class="work-subheader">Intuit</h6>
+		  <h6 class="work-subheader">Intuit Co-Op</h6>
 		  <p><i>January 2019 - July 2019</i></p>
 		  <p><i>San Diego, CA</i></p>
 		  
@@ -129,59 +157,66 @@
 		  <p><i>September 2017 - December 2017 </i></p>
       <p><i>NTID, Rochester, New York</i></p>
 
-      <h5 class="leadership-experience">Leadership Experience</h5>
-		</div>
+      <h4 class="leadership-experience">Leadership Experience</h4>
+
+      <h6 class="leadership-subheader"><a href="https://www.ritathletics.com/roster.aspx?rp_id=13663&path=wswim">RIT Swimming and Diving</a> </h6>
+		  <p><i>August 2016 - Present </i></p>
+      <h6 class="leadership-subheader"><a href="https://campusgroups.rit.edu/wolk/about/">WOLK</a> President</h6>
+		  <p><i>April 2018 - Present </i></p>
+      
+      <h6 class="leadership-subheader"><a href="www.rithillel.org">Hillel</a> Public Relations</h6>
+      <p><i>August 2017 - December 2018 </i></p>
+      
+
+    </div>
+
+
 	  <div class="col-6">
-		  <h5 class="skills-header">Skills</h5>
+      <h4 class="skills-header">Skills</h4>
+      
 		  <p><h6 class="skills-subheader">Programming Languages</h6></p>
 		 Python
 			<div class="progress">
-  				<div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+  				<div class="progress-bar programming" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
 			</div>
 		  Java
 			<div class="progress">
-  				<div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+  				<div class="progress-bar programming" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 			</div>
 		  C
 			<div class="progress">
-  				<div class="progress-bar bg-success" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-			</div>
+  				<div class="progress-bar programming" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      
       <p><h6 class="skills-subheader">Software</h6></p>
+		  Microsoft Office
+		  <div class="progress">
+  			<div class="progress-bar software" role="progressbar" style="width: 89%" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
 		  Splunk
 		  <div class="progress">
-  			<div class="progress-bar bg-success" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-			</div><p><h6 class="skills-subheader">Other</h6></p>
+  			<div class="progress-bar software" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      LaTeX
+		  <div class="progress">
+  			<div class="progress-bar software" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+
+      <p><h6 class="skills-subheader">Other</h6></p>
       American Sign Language
       <div class="progress">
-        <div class="progress-bar bg-success" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="progress-bar other" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
       </div>
       Spanish
       <div class="progress">
-        <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="progress-bar other" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
       </div>
     </div>
-    
-  </div>
+    </div>
   </div>
 </section>
 
-<!-- Portfolio Section -->
-<section class="subsection" id="portfolio">
-	<div class="container">
-		<div class= "row justify-content-center" id="subsection-heading">
-			<div class= "col-8 text-center">
-				<h3 class="portfolio-header">Portfolio</h3>
-			</div>
-    </div>
-    <div class= "row justify-content-center">
-        <div class= "col text-center">
-          <h5 class="portfolio-subheader"><i>
-            I am currently working on uploading content. Please check back soon for updates!
-          </i></h5>
-        </div>
-      </div>
-	</div>	
-</section>
+
 
 <!-- Contact Section -->
 <section class="subsection" id="contact">
@@ -189,6 +224,8 @@
 		<div class= "row justify-content-center" id="subsection-heading">
 			<div class= "col-8 text-center">
 				 <h3 class="contact-header">Contact</h3>
+				
+		<div class="border-bottom my-1 mx-5"></div>
 			</div>
 		</div>
 		<div class="row justify-content-center h-10">
@@ -199,7 +236,7 @@
 			</div>
 			<div class="col">
 				<a href="https://www.linkedin.com/in/emily-lederman-a4539113b/">
-					<img src="/images/linkedin_logo.png" class="img-fluid mx-auto d-block w-50 contact-img" alt="LinkedIn Profile"></img></a>
+					<img src="/images/linkedin_logo.png" class="img-fluid mx-auto w-50 contact-img" alt="LinkedIn Profile"></img></a>
 			</div>
 		</div>
 	</div>
@@ -208,8 +245,7 @@
 <!-- Footer -->
   <footer class="container mastfoot mt-auto">
       <div class="row justify-content-center align-items-center">
-		  <p class="copy">&copy; 2019 Emily Lederman</p>
-      </div>
+		  <p class="copy">&copy; 2019 Emily Lederman</p></div>
   </footer>
 		 
   <!--Bootstrap scripts-->
