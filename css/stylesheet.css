@@ -15,11 +15,90 @@ nav{
 	background-color: white;
 }
 
-#about, #portfolio{
+.border-bottom {
+	border-width:.25rem !important;
+	border-color: #e1e8ed !important;
+}
+
+#about{
 	background-color: #e29536;
 }
 
+#about img{
+	max-width: 100%;
+  
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+#about img:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+
+}
+
+#resume{
+	background-color: #b3dee0;
+}
+
+#portfolio .border-bottom{
+	border-color:  #efba47 !important;
+}
+
+#portfolio img{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	max-width: 100%;
+  
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+#portfolio img:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+
+	color: #e29536;
+	opacity: 0.3;
+
+}
+
+
+.coming-soon{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(29, 106, 154, 0.72);
+	color: #fff;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .2s, visibility .2s;
+}
+
+.writing:hover .coming-soon{
+	visibility: visible;
+	opacity: 1;
+}
+
+.progress-bar{
+	background-color: #e29536;
+}
+
+a{
+	color: #061f21;
+	text-decoration: underline dotted;
+}
+
 body{
+}
+
+#subsection-heading{
+	padding: 2rem 0;
 }
 
 header {
@@ -27,9 +106,13 @@ header {
 }
 
 section {
-  padding: 10rem 0;
   align-content: center;
   align-self: start;
+  padding-bottom: 3em;
+}
+
+#contact .border-bottom{
+	border-color:  #efba47 !important;
 }
 
 footer {
@@ -38,6 +121,6 @@ footer {
 }
 
 .contact-img{
-	width=1000%;
+	width:50%;
 	padding: .5rem 0;
 }
