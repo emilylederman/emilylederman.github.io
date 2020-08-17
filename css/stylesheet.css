@@ -18,17 +18,18 @@ footer {
 
 /* masthead styling */
 .masthead {
+	height: 100vh;
 	min-height: 100vh;
 	margin:auto;
-	overflow-wrap:break-word;
 }
 
 
 .masthead h1{
 	font-family: Verdana, Geneva, sans-serif;
 	font-weight: bolder;
-	font-size:12rem;
+	font-size:10rem;
 	margin-right:10vw;
+	overflow-wrap:break-word;
 }
 
 .masthead p{
