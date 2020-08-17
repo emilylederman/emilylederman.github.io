@@ -27,9 +27,8 @@ footer {
 .masthead h1{
 	font-family: Verdana, Geneva, sans-serif;
 	font-weight: bolder;
-	font-size:12vh;
+	font-size:12vw;
 	margin-right:10vw;
-	overflow: hidden;
 }
 
 .masthead p{
@@ -58,7 +57,7 @@ footer {
 h2 {
 	font-family: Verdana, Geneva, sans-serif;
 	margin-left:5vw;
-	font-size: 4vh;
+	font-size: 4vw;
 }
 
 
@@ -114,7 +113,7 @@ navbar{
 
 /* section stylings*/
 .about-section{
-	height:100vh;
+	min-height:100vh;
 }
 
 .about-section p{
@@ -135,5 +134,5 @@ navbar{
 }
 
 .contact-section{
-	height:50vh;
+	min-height:50vh;
 }
