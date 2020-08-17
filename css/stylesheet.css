@@ -27,7 +27,7 @@ footer {
 .masthead h1{
 	font-family: Verdana, Geneva, sans-serif;
 	font-weight: bolder;
-	font-size:10rem;
+	font-size:10vh;
 	margin-right:10vw;
 	overflow-wrap:break-word;
 }
@@ -58,7 +58,7 @@ footer {
 h2 {
 	font-family: Verdana, Geneva, sans-serif;
 	margin-left:5vw;
-	font-size: 5rem;
+	font-size: 3vh;
 }
 
 
@@ -121,7 +121,7 @@ navbar{
 	margin-left:5vw;
 	margin-right: 5vw;
 	margin-top:5vh;
-	font-size: 2rem;
+	font-size: 2vh;
 }
 
 .about-section a{
