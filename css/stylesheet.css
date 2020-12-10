@@ -27,20 +27,26 @@ footer {
 	height: 100vh;
 	min-height: 100vh;
 	margin:auto;
+	background: url("/images/la-jolla-swim.jpg") no-repeat fixed center;
+	background-size: cover;
 }
 
 
 .masthead h1{
-	font-family: Verdana, Geneva, sans-serif;
 	font-weight: bolder;
 	font-size:10vh;
 	margin-right:10vw;
 	overflow-wrap:break-word;
+	color:#ffffff;
 }
 
-.masthead p{
-	text-align:center;
+.masthead p{	
+	background-color: rgba(38, 92, 117, .50);
+
+	padding: 1vw;
+	font-size:3vh;
 	margin-bottom:5vh;
+	color:#ffffff;
 }
 
 /* arrow */
@@ -62,16 +68,17 @@ footer {
 
 /* headers */
 h2 {
-	font-family: Verdana, Geneva, sans-serif;
 	margin-left:5vw;
-	font-size: 3vh;
+	padding: 1vw;
+	font-size: 5vh;
 }
 
 
 /* navigation styling */
-navbar{
+.navbar{
 	width:100vw;
 	position:fixed;
+
 }
 
 .navbar-nav{
@@ -81,6 +88,12 @@ navbar{
 
 .nav-item{
 	text-align:right;
+}
+.nav-item a{
+	color: #ffffff !important;
+}
+.nav-item a :hover{
+	color: #007bb5 !important;
 }
 
 /* line */
@@ -108,38 +121,18 @@ navbar{
 	color: white;
   }
 
-  .fa-github {
-	background: black;
-	color: white;
-  }
-
-  .fa-envelope {
-	background: #dd4b39;
-	color: white;
-  }
-
-/* section stylings*/
-.about-section{
-	min-height:100vh;
+.fa-github {
+background: black;
+color: white;
 }
 
-.about-section p{
-	margin-left:5vw;
-	margin-right: 5vw;
-	margin-top:5vh;
-	font-size: 2vh;
+.fa-envelope {
+background: #dd4b39;
+color: white;
 }
-
-.about-section a{
-	border-bottom: .05em dotted;
-	color: black;
-}
-
-.about-section a:hover{
-	text-decoration:none;
-	font-weight: bolder;
-}
+/**********/
 
 .contact-section{
-	min-height:50vh;
+	min-height:42vh;
 }
+
