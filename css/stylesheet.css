@@ -1,6 +1,6 @@
 @media only screen and (max-width:999px){
 	.masthead{
-	background-position: 50% 100%;
+	background-position: 50% 125%;
 	padding: 2vh;
 	}
 	.masthead h1{
@@ -29,7 +29,6 @@ footer {
 
 /* masthead styling */
 .masthead {
-	height: 100vh;
 	min-height: 100vh;
 	margin:auto;
 	background: url("/images/la-jolla-swim.jpg") no-repeat center;
