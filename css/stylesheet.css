@@ -1,6 +1,5 @@
 .body{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	height: 100%;
 	padding-bottom: 5vh;
 }
 
@@ -11,7 +10,6 @@
 }
 .container{
 	display:flex;
-	height:100%;
 }
 
 .splash-screen h1{
