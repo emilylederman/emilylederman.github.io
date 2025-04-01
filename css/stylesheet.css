@@ -33,7 +33,7 @@
 }
 
 footer{
-	position: static;
+	position: sticky;
 	text-align: center;
 	background: url("/images/la-jolla-swim.jpg") no-repeat center;
 	opacity: .95;
