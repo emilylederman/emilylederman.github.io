@@ -4,7 +4,7 @@
 }
 
 .site-page{
-	min-height: 97vh;
+	height: 97vh;
 	background: url("/images/la-jolla-swim.jpg") no-repeat center;
 	background-size: cover;
 }
