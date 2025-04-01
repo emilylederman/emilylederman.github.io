@@ -31,7 +31,6 @@ $(function() {
     }
   });
 });
-});
 
 $(this).click(function(event) {
   if ($('#animation').prop('checked')) {
