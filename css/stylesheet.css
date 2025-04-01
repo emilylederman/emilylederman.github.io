@@ -2,10 +2,13 @@
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	height: 100%;
 	padding-bottom: 5vh;
+	
 }
 
 .site-page{
 	height: 100vh;
+	background: url("/images/la-jolla-swim.jpg") no-repeat center;
+	background-size: cover;
 }
 .container{
 	display:flex;
@@ -20,32 +23,16 @@
 	text-decoration: underline;
 }
 
-.contact-section{
-	height:75vh;
-}
-
-.contact-section img{
-	width: 15vw;
-	min-width: 20vw;
-	min-height: 20vw;
-	max-width: 30vh;
-	max-height: 30vh;
-}
-
-.contact-section a{
-	text-decoration: none;
-	font-size: 2rem;
-	color: black;
-	text-align: center;
-}
-
-.contact-col{
-	text-align: center;
-	margin: auto;
+.lander-content{
+	background-color: aliceblue;
+	width: 90%;
 }
 
 footer{
 	position: relative;
 	text-align: center;
-	height: 4vh;
+	background: url("/images/la-jolla-swim.jpg") no-repeat center;
+	opacity: .95;
+	color:white;
+	height: 3vh;
 }
