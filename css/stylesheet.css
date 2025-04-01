@@ -5,7 +5,7 @@
 }
 
 .site-page{
-	min-height: 97vh;
+	min-height: 100vh;
 	background: url("/images/la-jolla-swim.jpg") no-repeat center;
 	background-size: cover;
 }
@@ -32,7 +32,6 @@
 .row{
 	padding: 1rem;
 }
-
 footer{
 	flex: 0 0 auto;
 	text-align: center;
