@@ -1,142 +1,51 @@
-@media only screen and (max-width:999px){
-	.masthead{
-	background-position: 50% 125%;
-	padding: 2vh;
-	}
-	.masthead h1{
-		font-size:3vh;
-		padding-bottom: 3vh;
-	}
+.body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	height: 100%;
+	padding-bottom: 5vh;
 }
 
-html {
-	scroll-behavior: smooth;
-	font-family: 'Global Monospace';
+.site-page{
+	height: 100vh;
+}
+.container{
+	display:flex;
+	height:100%;
 }
 
-
-footer {
-	position: relative;
-	height: 5vh;
-	bottom: 0;
-	width: 100vw;
-	text-align: center;
-	background-color: none;
-	color: GrayText;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 2vh;
+.splash-screen h1{
+	font-size: 2 rem;
 }
 
-/* masthead styling */
-.masthead {
-	min-height: 100vh;
-	margin:auto;
-	background: url("/images/la-jolla-swim.jpg") no-repeat center;
-	background-size: cover;
+.navbar a:hover{
+	text-decoration: underline;
 }
-
-
-.masthead h1{
-	font-weight: bolder;
-	font-size:10vh;
-	margin-right:10vw;
-	overflow-wrap:break-word;
-	color:#ffffff;
-}
-
-.masthead p{	
-	background-color: rgba(38, 92, 117, .50);
-
-	padding: 1vw;
-	font-size:3vh;
-	margin-bottom:5vh;
-	color:#ffffff;
-}
-
-/* arrow */
-.arrow {
-	border: solid gray;
-	border-width: 0 2px 2px 0;
-	display: inline-block;
-	padding: 1vw;
-}
-
-	.arrow:hover {
-		border: solid black;
-		border-width: 0 3px 3px 0;
-	}
-.down {
-	transform: rotate(45deg);
-	-webkit-transform: rotate(45deg);
-}
-
-/* headers */
-h2 {
-	margin-left:5vw;
-	padding: 1vw;
-	font-size: 5vh;
-}
-
-
-/* navigation styling */
-.navbar{
-	width:100vw;
-	position:fixed;
-
-}
-
-.navbar-nav{
-	margin-left: 60vw;
-}
-
-
-.nav-item{
-	text-align:right;
-}
-.nav-item a{
-	color: #ffffff !important;
-}
-.nav-item a :hover{
-	color: #007bb5 !important;
-}
-
-/* line */
-.border-bottom {
-	border-width:.25rem !important;
-	border-color: #e1e8ed !important;
-}
-
-/* icons (social media) */
-.fa {
-	padding:10vh;
-	text-align: center;
-	text-decoration: none;
-	border-radius: 50%;
-	font-size:8vh !important;
-  }
-	.fa:hover {
-		opacity: 0.7;
-		text-decoration:none;
-		color:white;
-	}
-	
-.fa-linkedin {
-	background: #007bb5;
-	color: white;
-  }
-
-.fa-github {
-background: black;
-color: white;
-}
-
-.fa-envelope {
-background: #dd4b39;
-color: white;
-}
-/**********/
 
 .contact-section{
-	min-height:42vh;
+	height:75vh;
 }
 
+.contact-section img{
+	width: 15vw;
+	min-width: 20vw;
+	min-height: 20vw;
+	max-width: 30vh;
+	max-height: 30vh;
+}
+
+.contact-section a{
+	text-decoration: none;
+	font-size: 2rem;
+	color: black;
+	text-align: center;
+}
+
+.contact-col{
+	text-align: center;
+	margin: auto;
+}
+
+footer{
+	position: relative;
+	text-align: center;
+	height: 4vh;
+}
