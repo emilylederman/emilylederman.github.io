@@ -25,7 +25,13 @@
 
 .lander-content{
 	background-color: aliceblue;
-	width: 90%;
+	border-radius: 10px;
+	opacity: .95;
+	padding-top: .5rem;
+}
+
+.row{
+	padding: 1rem;
 }
 
 footer{
