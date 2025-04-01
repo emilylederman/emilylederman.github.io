@@ -2,13 +2,10 @@
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	height: 100%;
 	padding-bottom: 5vh;
-	
-	min-height: 97vh;
-	
 }
 
 .site-page{
-	min-height: 100vh;
+	min-height: 97vh;
 	background: url("/images/la-jolla-swim.jpg") no-repeat center;
 	background-size: cover;
 }
@@ -30,6 +27,7 @@
 	border-radius: 10px;
 	opacity: .90;
 	padding-top: .5rem;
+	margin-top: 50%;
 }
 
 .row{
@@ -37,7 +35,7 @@
 }
 
 footer{
-	position: relative;
+	position: static;
 	text-align: center;
 	background: url("/images/la-jolla-swim.jpg") no-repeat center;
 	opacity: .95;
