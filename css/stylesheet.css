@@ -3,10 +3,12 @@
 	height: 100%;
 	padding-bottom: 5vh;
 	
+	min-height: 97vh;
+	
 }
 
 .site-page{
-	height: 100vh;
+	min-height: 100vh;
 	background: url("/images/la-jolla-swim.jpg") no-repeat center;
 	background-size: cover;
 }
