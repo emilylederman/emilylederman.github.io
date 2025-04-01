@@ -42,5 +42,5 @@ footer{
 	background: url("/images/la-jolla-swim.jpg") no-repeat center;
 	opacity: .95;
 	color:white;
-	height: 3vh;
+	min-height: 3vh;
 }
