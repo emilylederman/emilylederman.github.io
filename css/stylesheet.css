@@ -53,7 +53,7 @@ small,
 
 .site-page{
 	min-height: 100vh;
-	background: url("/images/la-jolla-swim.jpg") no-repeat center;
+	background: url("/assets/images/la-jolla-swim.jpg") no-repeat center;
 	background-size: cover;
 }
 .container{
@@ -69,11 +69,15 @@ small,
 }
 
 .lander-content{
+
+	margin-top:20vh;
+}
+
+.text-component{
 	background-color: whitesmoke;
 	border-radius: 10px;
 	opacity: .90;
 	padding: .5rem;
-	margin-top: 50%;
 }
 
 .row{
