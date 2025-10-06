@@ -5,4 +5,4 @@ tl;dr- I am a product builder, swimmer, coder, researcher, and cat lover.
 emilyrlederman@gmail.com
 
 ## About this website
-I've always wanted my to build my own little, clean, simple slice of the internet. Spurred by the pandemic in 2020, I built this website using Bootstrap JS. My evolution of who I am, and who I want to become, has been reflected in the changing design and structure of this site- for the better, I hope.
+I've always wanted my to build up my own little slice of the internet. During the 2020 COVID lockdown, I finally created this website, keeping it simple (sweetheart!) with HTML and Bootstrap JS. My evolving public persona, professional direction, and goals have been reflected in the changing design and structure of this site.
