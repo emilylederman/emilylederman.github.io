@@ -1,8 +1,8 @@
 # Emily Lederman
 ## About me
-I am a product builder by trade. I enjoy swimming and dabbling in code.
+tl;dr- I am a product builder, swimmer, coder, researcher, and cat lover.
 ### Contact
-emily.lederman@hotmail.com
+emilyrlederman@gmail.com
 
 ## About this website
-I first built this website in 2020 using Bootstrap JS. I should probably update it more often. :)
+I've always wanted my to build my own little, clean, simple slice of the internet. Spurred by the pandemic in 2020, I built this website using Bootstrap JS. My evolution of who I am, and who I want to become, has been reflected in the changing design and structure of this site- for the better, I hope.

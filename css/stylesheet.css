@@ -1,7 +1,7 @@
 /*based on type scale major third (1.25), base size 16. generated using https://baseline.is/tools/type-scale-generator/ */
 
 html {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 body {
@@ -20,7 +20,7 @@ h3,
 h4,
 h5 {
   font-family: "Montserrat", sans-serif;
-  font-weight: true;
+  font-weight: 500;
   line-height: 1.15;
 }
 
@@ -79,7 +79,7 @@ small,
 .profile-picture {
   width: 12em;
   height: 12em;
-  object-fit: cover;
+  object-fit: cover;  object-position: center;
   border-radius: 50%;
 }
 
@@ -104,6 +104,8 @@ small,
   background-color: rgb(245, 245, 245, .95);
   border-radius: 1rem;
   padding-top: 1rem;
+  max-width: 1600px;
+    margin: 0 auto;
 }
 
 .row {
