@@ -117,4 +117,11 @@ small,
 }
 .contact-button-list {
   padding-top: 0rem;
+  padding-bottom: 1rem;
+}
+.btn {
+  transition: transform 0.2s ease;
+}
+.btn:hover {
+  transform: translateY(-2px); /* Subtle lift on hover */
 }
