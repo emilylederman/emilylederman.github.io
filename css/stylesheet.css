@@ -1,42 +1,125 @@
-.body{
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	flex: 1 0 auto;
-	padding-bottom: 5vh;
+/*based on type scale major third (1.25), base size 16. generated using https://baseline.is/tools/type-scale-generator/ */
+
+html {
+  font-size: 18px;
 }
 
-.site-page{
-	min-height: 100vh;
-	background: url("/images/la-jolla-swim.jpg") no-repeat center;
-	background-size: cover;
-}
-.container{
-	display:flex;
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: false;
+  line-height: 1.65;
 }
 
-.splash-screen h1{
-	font-size: 2 rem;
+p {
+  font-size: 1.15em;
 }
 
-.navbar a:hover{
-	text-decoration: underline;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 1.15;
 }
 
-.lander-content{
-	background-color: whitesmoke;
-	border-radius: 10px;
-	opacity: .90;
-	padding-top: .5rem;
-	margin-top: 50%;
+h1,
+.text-size-h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 3.05em;
 }
 
-.row{
-	padding: 1rem;
+h2,
+.text-size-h2 {
+  font-size: 1.95em;
 }
-footer{
-	flex: 0 0 auto;
-	text-align: center;
-	background: url("/images/la-jolla-swim.jpg") no-repeat center;
-	opacity: .95;
-	color:white;
-	min-height: 3vh;
+
+h3,
+.text-size-h3 {
+  font-size: 1.56em;
+}
+
+h4,
+.text-size-h4 {
+  font-size: 1.25em;
+}
+
+h5,
+.text-size-h5 {
+  font-size: 0.8em;
+}
+
+.text-caption {
+  font-size: 0.6em;
+}
+
+small,
+.text-small {
+  font-size: 0.64em;
+}
+
+/*****/
+
+.site-page {
+  /*background: url("/assets/images/la-jolla-swim.jpg") no-repeat center;*/
+  background-color: coral;
+  background-size: cover;
+}
+.container {
+  display: flex;
+}
+
+.branding-statement {
+  font-size: 1.5em;
+}
+
+.profile-picture {
+  width: 12em;
+  height: 12em;
+  object-fit: cover;  object-position: center;
+  border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+.profile-picture {
+    margin-left: auto;
+    margin-right: 0; /* Right-aligned on desktop */
+  }
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.splash-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.lander-content {
+  background-color: rgb(245, 245, 245, .95);
+  border-radius: 1rem;
+  padding-top: 1rem;
+  max-width: 1600px;
+    margin: 0 auto;
+}
+
+.row {
+  padding: .5rem;
+}
+
+
+.contact-button-list {
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+}
+.btn {
+  transition: transform 0.2s ease;
+}
+.btn:hover {
+  transform: translateY(-2px); /* Subtle lift on hover */
 }
