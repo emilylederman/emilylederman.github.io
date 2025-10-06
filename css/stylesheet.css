@@ -52,25 +52,36 @@ small,
 /*****/
 
 .site-page{
-	min-height: 100vh;
-	background: url("/assets/images/la-jolla-swim.jpg") no-repeat center;
+	/*background: url("/assets/images/la-jolla-swim.jpg") no-repeat center;*/
+	background-color: coral;
 	background-size: cover;
 }
 .container{
 	display:flex;
 }
 
-.splash-screen h1{
-	font-size: 2 rem;
+.branding-statement{
+	font-size:1.5em;
+}
+
+.profile-picture{
+
+  width: 15em;
+  height: 15em;
+  object-fit: cover;
+  border-radius: 50%;
+  
 }
 
 .navbar a:hover{
 	text-decoration: underline;
 }
 
-.lander-content{
-
-	margin-top:20vh;
+.splash-screen {
+  min-height: 100vh;
+  display: flex;
+    align-items: center;
+  padding: 0vh 10vh 20vh 10vh;
 }
 
 .text-component{
