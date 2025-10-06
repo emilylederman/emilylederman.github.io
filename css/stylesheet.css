@@ -79,12 +79,13 @@ small,
 .profile-picture {
   width: 12em;
   height: 12em;
-  object-fit: cover;  object-position: center;
+  object-fit: cover;
+  object-position: center;
   border-radius: 50%;
 }
 
 @media (min-width: 768px) {
-.profile-picture {
+  .profile-picture {
     margin-left: auto;
     margin-right: 0; /* Right-aligned on desktop */
   }
@@ -101,21 +102,20 @@ small,
 }
 
 .lander-content {
-  background-color: rgb(245, 245, 245, .95);
+  background-color: rgb(245, 245, 245, 0.95);
   border-radius: 1rem;
   padding-top: 1rem;
   max-width: 1600px;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .row {
-  padding: .5rem;
+  padding: 0.5rem;
 }
-
 
 .contact-button-list {
   padding-top: 0rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.55rem;
 }
 .btn {
   transition: transform 0.2s ease;
