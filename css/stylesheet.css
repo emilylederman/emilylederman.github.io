@@ -109,12 +109,10 @@ small,
 }
 
 .row {
-  padding: 1rem;
+  padding: .5rem;
 }
 
-.contact-header {
-  padding-bottom: 0rem;
-}
+
 .contact-button-list {
   padding-top: 0rem;
   padding-bottom: 1rem;
